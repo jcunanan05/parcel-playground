@@ -1,0 +1,11 @@
+{
+  "name": "parcel-playground",
+  "version": "0.0.1",
+  "description": "exploring parcel with traditional development",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "Jonathan Cunanan <j_cunanan05@yahoo.com>",
+  "license": "ISC"
+}
