@@ -6,6 +6,8 @@
   "scripts": {
     "start": "yarn dev",
     "dev": "parcel src/index.pug",
+    "build": "parcel build src/index.pug",
+    "serve:local": "npx serve dist",
     "test": "exit 0"
   },
   "author": "Jonathan Cunanan <j_cunanan05@yahoo.com>",
