@@ -4,8 +4,13 @@
   "description": "exploring parcel with traditional development",
   "main": "index.js",
   "scripts": {
+    "start": "yarn dev",
+    "dev": "parcel src/index.pug",
     "test": "exit 0"
   },
   "author": "Jonathan Cunanan <j_cunanan05@yahoo.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "pug": "^2.0.3"
+  }
 }
