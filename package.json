@@ -4,11 +4,15 @@
   "description": "exploring parcel with traditional development",
   "main": "index.js",
   "scripts": {
+    "start": "parcel src/index.js",
+    "clean": "rimraf dist",
+    "clean:all": "rimraf dist .cache",
     "test": "exit 0"
   },
   "author": "Jonathan Cunanan <j_cunanan05@yahoo.com>",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.3",
+    "rimraf": "^2.6.3"
   }
 }
