@@ -7,5 +7,8 @@
     "test": "exit 0"
   },
   "author": "Jonathan Cunanan <j_cunanan05@yahoo.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
 }
