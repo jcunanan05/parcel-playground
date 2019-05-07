@@ -1,0 +1,9 @@
+.Links {
+  padding: 1rem 1rem;
+  background-color: rgb(230, 230, 230);
+  font-weight: 300;
+}
+
+.Links a + a {
+  margin: 0 1rem;
+}
