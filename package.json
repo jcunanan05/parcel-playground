@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn dev",
-    "dev": "parcel src/index.pug",
-    "build": "parcel build src/index.pug",
+    "dev": "parcel src/pages/index.pug",
+    "build": "parcel build src/pages/index.pug",
     "serve:local": "npx serve dist",
+    "clean": "rimraf .cache dist",
     "test": "exit 0"
   },
   "author": "Jonathan Cunanan <j_cunanan05@yahoo.com>",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "rimraf": "^2.6.3"
   }
 }
